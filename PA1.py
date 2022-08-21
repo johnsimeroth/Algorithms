@@ -23,7 +23,7 @@ def ten_one_split(x):
     # This method takes an INT and splits it into ones and tens
     # For example, 15 -> tens = 1, ones = 5.
     # Return is a string list
-
+#test
     ones = "0"
     tens = "0"
     if x < 10:
@@ -92,7 +92,7 @@ def karatsuba(x1,x2):
     #step 2: multiply the second halves of each (b*d)
     #step 3: multiply (a+b)*(c+d)
     #step 4: compute [3] - [2] - [1]
-    #step 5:
+    #step 5: 10^n * [1] + 10^(n/2) * [4] + [2]
     #print(f'karatsuba input: {x1}, {x2}')
     if len(x1) == 1 or len(x2) == 1:
         #print('x1 length == 1')
